@@ -27,7 +27,7 @@
 - Repository (Repo is a place where all the code is stored)
 - Branch (Branch is a group of code)
 - Local Repo
-- Remote Repo 
+- Remote Repo
 - Commit (snapshot or checkpoint in your local repo)
 - Clone (from local or Remote repo)
 - Push (upload local changes to remote repo)
@@ -155,7 +155,8 @@ In this part, we will learn how to work with multiple stashes and how to resolve
 - `git stash drop stash@{n}` - Delete the stash with index n.
 - `git stash apply` - Apply the
 
- last stash.
+last stash.
+
 - `git stash apply stash@{n}` - Apply the stash with index n.
 - `git stash branch branchname` - Create a new branch from the stash and apply it.
 - `git stash save "message"` - Save changes with a message.
@@ -224,13 +225,39 @@ In this final topic, we have summarized what we have learned and provided some a
 - It is important to commit frequently and write clear commit messages, use descriptive branch and tag names, and follow best practices for collaborating and reviewing code with your team.
 - It is also useful to learn more advanced Git commands and workflows, such as rebasing, cherry-picking, and using Git hooks and aliases, to streamline your development process and avoid common mistakes and errors.
 
-## GitHub_Summary
-### 1.Open The Summary With Visual studio code 
-### 2.Download Extensions Better Comment That will Help you in Viewing File
-### 3.Download Cmder That will Help You in write git commands 
-### 4-Elzero_blog => https://elzero.org/category/courses/git-and-github/
-### 5-Link For Creating Good Sytle Readme Files => https://readme.so/editor
-### 6- Git Reference => https://git-scm.com/
-### 7- Profile Generator Webiste => https://gprm.itsvg.in/
-### 8- Batch File Help You to upload Your Files => make it more easier
+# GitHub Summary
 
+## Getting Started
+
+1. **Open the Summary with Visual Studio Code**  
+   Use Visual Studio Code to edit and manage your project files efficiently.
+
+2. **Download Extensions**
+
+   - Install the **Better Comments** extension to enhance file readability and organization.
+
+3. **Download Cmder**
+   - Use **Cmder** as a terminal emulator for writing and executing Git commands seamlessly.
+
+---
+
+## Useful Resources
+
+- **Elzero Blog (Git and GitHub Course)**  
+  [Explore Git and GitHub tutorials here](https://elzero.org/category/courses/git-and-github/).
+
+- **Creating Good-Style README Files**  
+  [Use this tool to design your README files](https://readme.so/editor).
+
+- **Git Official Reference**  
+  [Learn more about Git commands and workflows](https://git-scm.com/).
+
+- **Profile Generator Website**  
+  [Generate a professional GitHub profile](https://gprm.itsvg.in/).
+
+---
+
+## Tips and Tricks
+
+- **Batch File for Uploading Files**  
+  Simplify your file uploads with an automated batch file script.
